@@ -1,0 +1,1 @@
+/Users/omega/.vim/bundle/vim-pathogen/autoload/pathogen.vim

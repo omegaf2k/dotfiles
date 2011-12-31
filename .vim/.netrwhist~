@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/aki/Dropbox/dev_iphone'
+let g:netrw_dirhist_2='/Users/aki/Dropbox/dev_iphone/実験'
+let g:netrw_dirhist_3='/Users/aki/Dropbox/dev_iphone/実験/c'
