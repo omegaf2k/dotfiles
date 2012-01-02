@@ -33,7 +33,7 @@ highlight CursorIM guifg=NONE guibg=Red
 " 様々な箇所を英語に戻す
 "lang en_gb
  
-
+ 
 "-------------------------------------------------------------------------------
 " ウィンドウ
 set sessionoptions+=resize " 行・列を設定する

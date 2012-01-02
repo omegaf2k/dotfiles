@@ -39,8 +39,6 @@ silent! nmap <unique>r<Plug>(quickrun)
 
 
 
-
-
 "----------------------------------------------------------
 """"""pathogen
 call pathogen#infect()
