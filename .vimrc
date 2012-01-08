@@ -91,7 +91,7 @@ NeoBundle "https://github.com/Shougo/neocomplcache.git"
 "NeoBundle "https://github.com/mattn/webapi-vim.git"
 "NeoBundle "https://github.com/Shougo/echodoc.git"
 "NeoBundle "https://github.com/vim-scripts/TwitVim.git"
-""NeoBundle "https://github.com/tsukkee/unite-help.git"
+NeoBundle "https://github.com/tsukkee/unite-help.git"
 
 ""NeoBundle "https://github.com/choplin/unite-vim_hacks.git"
 

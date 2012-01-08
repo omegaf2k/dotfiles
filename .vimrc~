@@ -8,6 +8,26 @@ set fencs=iso-2022-jp,utf-8,euc-jp,cp932
 "----------------------------------------------------------
 
 
+"----------------------------------------------------------
+"""""""ヘルプをgitから
+helptags ~/.vim/bundle/vimdoc-ja
+set helplang=ja,en
+
+"----------------------------------------------------------
+"""""""howm
+
+""set runtimepath+=/Users/omega/Dropbox/sync/qfixapp
+set runtimepath+=~/.bundle/qfixapp
+
+"キーマップ
+let QFixHowm_Key = 'g'
+let howm_dir = '/Users/omega/Dropbox/sync/qfixapp/howm'
+""let howm_dir             = '~/howm'
+let howm_filename        = '%Y/%m/%Y-%m-%d-%H%M%S.howm'
+let howm_fileencoding    = 'utf-8'
+let howm_fileformat      = 'unix'
+
+
 
 
 
@@ -34,7 +54,9 @@ let g:quickrun_config["run/vimproc"] = {
     \ "runner" : "vimproc",
     \ "outputter" : "buffer"
 \ }
-silent! nmap <unique>r<Plug>(quickrun)
+silent! nmap <unique>r,<Plug>(quickrun)
+
+
 
 
 
@@ -57,7 +79,7 @@ endif
 
 NeoBundle "https://github.com/Shougo/vimfiler.git"
 NeoBundle "https://github.com/Shougo/unite.vim.git"
-"NeoBundle "https://github.com/thinca/vim-quickrun.git"
+NeoBundle "https://github.com/thinca/vim-quickrun.git"
 "NeoBundle "https://github.com/scrooloose/nerdcommenter.git"
 NeoBundle "https://github.com/Shougo/vimshell.git"
 "NeoBundle "http://github.com/Shougo/vimproc"
@@ -76,11 +98,11 @@ NeoBundle "https://github.com/Shougo/neocomplcache.git"
 "NeoBundle "https://github.com/vim-scripts/open-browser.vim.git"
 "NeoBundle "https://github.com/sbl/scvim.git"
 
-"NeoBundle "https://github.com/vim-scripts/textutil.vim.git"
+NeoBundle "https://github.com/vim-scripts/textutil.vim.git"
 
 ""Bundle "https://github.com/vim-scripts/scvim.git"
 
-""NeoBundle "https://github.com/fuenor/qfixhowm.git"
+NeoBundle "https://github.com/fuenor/qfixhowm.git"
 NeoBundle "https://github.com/ujihisa/unite-colorscheme.git"
 ""NeoBundle "https://github.com/mattn/unite-advent_calendar.git"
 
@@ -90,6 +112,8 @@ NeoBundle "https://github.com/thinca/vim-ref.git"
 
 NeoBundle "https://github.com/mojako/ref-alc.vim.git"
 NeoBundle "https://github.com/mojako/ref-sources.vim.git"
+NeoBundle "https://github.com/h1mesuke/unite-outline.git"
+
 
 filetype plugin indent on
 
